@@ -1,18 +1,18 @@
 const website = {
-    titulo : 'Sistema de Avaliação Online',
-    url : 'https://www.sistemaOnlineAv.com.br',
-    tags : [
+    titulo              : 'Sistema de Avaliação Online',
+    url                 : 'https://www.sistemaOnlineAv.com.br',
+    tags                : [
         'Biologia',
         'História',
         'Matemática',
         'Português'
     ],
     disciplinasTecnicas : {
-        adm : ['Direito do Consumidor', 'Marketing'],
-        info : ['HTML', 'PHP', 'JavaScript'],
-        enf : ['Saúde da Mulher', 'Primeiros Socorros']
+        adm             : ['Direito do Consumidor', 'Marketing'],
+        info            : ['HTML', 'PHP', 'JavaScript'],
+        enf             : ['Saúde da Mulher', 'Primeiros Socorros']
     },
-    escola : function (){
+    escola              : function (){
         return 'EEEP Amélia Figueiredo'
     }  
 }
